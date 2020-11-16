@@ -5,9 +5,6 @@ function datecalc(){
   if(result == null){
     var result = "Invalid Date"
   }
-  if(dayStr.includes("2019") || dayStr.includes("2022")){
-    var result = "Invalid Date"
-  }
   if(dayStr.includes("Mon")){
     var result = "A Day"
   }
